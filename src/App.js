@@ -8,11 +8,15 @@ import './App.css';
 class App extends Component {
   render(){
     return(
+      <div className="App">
       <Router>
+      
         <Header />
         <Route exact path="/" component={Movies}/>
         <Route exact path="/moviedetails/:movieid" name ="routename" component={MovieDetails}/>
+      
       </Router>
+      </div>
     )
   }
 }
