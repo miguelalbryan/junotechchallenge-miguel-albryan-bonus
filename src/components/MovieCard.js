@@ -37,7 +37,7 @@ export default class MovieCard extends Component{
                     <img className="w-100 mb-2" key={index} src={'https://image.tmdb.org/t/p/w500'+movie.poster_path} alt="Movie Cover" />
                         <h5 className="card-title">{movie.title}</h5>
                         <Link className="btn btn-primary" to={`/moviedetails/${movie.id}`}>
-                        Movie Details <br/>
+                         Movie Details <br/>
                         <i className="fas fa-chevron-right" />
                       </Link>
             
