@@ -14,8 +14,7 @@ class App extends Component {
           <Route component={Header}/>
           <Route exact path="/" component={Movies}/> 
           <Route exact path="/moviedetails/:movieid" component={MovieDetails}/>
-          <Route exact path="/actordetails/:actorid/:actorname/:profpath" component={ActorDetails}/>
-      </Router>
+          </Router>
       </div>
     )
   }
