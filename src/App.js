@@ -10,12 +10,12 @@ class App extends Component {
     return(
       <Router>
         <div>
-        <Switch>
+        
           <Route component={Header}/>
           <Route exact path="/" component={Movies}/>
           This is suppose to be where the movies
           <Route exact path="/moviedetails/:movieid" component={MovieDetails}/>
-        </Switch>
+        
         </div>
       </Router>
     )
