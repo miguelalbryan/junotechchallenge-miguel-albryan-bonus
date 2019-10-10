@@ -1,5 +1,5 @@
 import React,  { Component } from 'react';
-import{BrowserRouter as Router, Route} from 'react-router-dom';
+import{BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Header from "./components/Header"
 import Movies from "./components/Movies"
 import MovieDetails from "./components/MovieDetails"
@@ -10,11 +10,12 @@ class App extends Component {
     return(
       <Router>
         <div>
-          <Header />
-
+        <Switch>
+          <Route component={Header}/>
           <Route exact path="/" component={Movies}/>
           This is suppose to be where the movies
-          <Route exact path="/moviedetails/:movieid" name ="routename" component={MovieDetails}/>
+          <Route exact path="/moviedetails/:movieid" component={MovieDetails}/>
+        </Switch>
         </div>
       </Router>
     )

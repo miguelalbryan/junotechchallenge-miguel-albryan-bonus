@@ -30,37 +30,7 @@ class MovieDetails extends Component{
        
 
     }
-
-    // render(){
-    //     let sortedMovies = this.state.moviesList.sort((a, b) => new Date(...b.release_date.split('/').reverse()) - new Date(...a.release_date.split('/').reverse()));
-    //     const movies = sortedMovies.slice(0,this.state.showItems).map((movie, index)=>{
-    //        return(
-    //         <div className="col-md-3 mb-5" key={index}>
-    //             <div className="card card-body text-center h-100">
-    //                 <img className="w-100 mb-2" key={index} src={'https://image.tmdb.org/t/p/w500'+movie.poster_path} alt="Movie Cover" />
-    //                     <h5 className="card-title">{movie.title}</h5>
-    //                     <Link className="btn btn-primary" to={`/moviedetails/${movie.id}`}>
-    //                     Movie Details <br/>
-    //                     <i className="fas fa-chevron-right" />
-    //                   </Link>
-            
-    //             </div> 
-    //         </div> 
-    //        )
-    //     });
-
-    //     return(
-    //         <div>
-    //             {this.state.loading || !this.state.moviesList ?(
-    //                 <div>Fetching movies...</div>
-    //                 ) :(
-    //                     <div><div className="row">{movies}</div></div>
-    //                 )}            
-    //         </div>
-                
-    //     )
-    // }
-
+  
     
     render(){
        
