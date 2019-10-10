@@ -5,7 +5,7 @@ import Movies from "./components/Movies"
 import MovieDetails from "./components/MovieDetails"
 import ActorDetails from "./components/ActorDetails"
 import './App.css';
- 
+//Main component which renders other component
 class App extends Component {
   render(){
     return(
@@ -14,7 +14,8 @@ class App extends Component {
           <Route component={Header}/>
           <Route exact path="/" component={Movies}/> 
           <Route exact path="/moviedetails/:movieid" component={MovieDetails}/>
-          </Router>
+          <Route exact path="/actordetails/:actorid/:actorname/:profpath" component={ActorDetails}/>
+      </Router>
       </div>
     )
   }

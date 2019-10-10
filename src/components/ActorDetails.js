@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import { APIKEY } from '../APIKEY/APIKEY.js'
-import Actors from './Actors.js'
+
 class ActorDetails extends Component{
     constructor(props){
         super(props);
         this.state = {
-            actorID: this.props.match.params.actorid,
+            actorID: this.props.match.params.actorid,   //Receives 3 parameters from Link
             actorName: this.props.match.params.actorname,
             profPath: this.props.match.params.profpath,
             actorDetails: [],   
@@ -28,7 +28,7 @@ class ActorDetails extends Component{
          
        })   
       
-       console.log(this.state.actorDetails)
+       
     }
   
     

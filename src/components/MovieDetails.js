@@ -6,7 +6,7 @@ class MovieDetails extends Component{
     constructor(props){
         super(props);
         this.state = {
-            movieID: this.props.match.params.movieid,
+            movieID: this.props.match.params.movieid, //Receives props from Link button click
             movieDetails: [],   
             movieGenre:[],
             loading: true                                          
@@ -24,7 +24,7 @@ class MovieDetails extends Component{
             movieGenre: data.genres,
             loading: false
           }
-         
+
        })   
        
 
