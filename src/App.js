@@ -12,9 +12,8 @@ class App extends Component {
 
       <Router>
           <Route component={Header}/>
-          <Route   path="https://miguelalbryan.github.io/junotechchallenge-miguel-albryan/" component={Movies}/>
-
-          <Route   path="https://miguelalbryan.github.io/junotechchallenge-miguel-albryan/moviedetails/:movieid" component={MovieDetails}/>
+          <Route  path="/" component={Movies}/>
+          <Route  exact path="/moviedetails/:movieid" component={MovieDetails}/>
         
       </Router>
       </div>
