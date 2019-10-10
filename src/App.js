@@ -9,9 +9,13 @@ class App extends Component {
   render(){
     return(
       <Router>
-        <Header />
-        <Route exact path="/" component={Movies}/>
-        <Route exact path="/moviedetails/:movieid" name ="routename" component={MovieDetails}/>
+        <div>
+          <Header />
+
+          <Route exact path="/" component={Movies}/>
+          This is suppose to be where the movies
+          <Route exact path="/moviedetails/:movieid" name ="routename" component={MovieDetails}/>
+        </div>
       </Router>
     )
   }
