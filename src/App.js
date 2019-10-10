@@ -8,16 +8,18 @@ import './App.css';
 class App extends Component {
   render(){
     return(
+      <div>
+
       <Router>
-        <div>
         
           <Route component={Header}/>
           <Route exact path="/" component={Movies}/>
           This is suppose to be where the movies
           <Route exact path="/moviedetails/:movieid" component={MovieDetails}/>
         
-        </div>
+        
       </Router>
+      </div>
     )
   }
 }
