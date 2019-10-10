@@ -13,7 +13,6 @@ class MovieDetails extends Component{
          }
     }
 
-
     async componentDidMount()
     {
        const url = `https://api.themoviedb.org/3/movie/${this.state.movieID}?api_key=${APIKEY}&language=en-US`
