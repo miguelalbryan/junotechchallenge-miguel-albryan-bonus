@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/junotechchallenge-miguel-albryan-bonus/static/css/main.517b9700.chunk.css",
+    "main.css": "/junotechchallenge-miguel-albryan-bonus/static/css/main.e65488a4.chunk.css",
     "main.js": "/junotechchallenge-miguel-albryan-bonus/static/js/main.f39e201c.chunk.js",
     "main.js.map": "/junotechchallenge-miguel-albryan-bonus/static/js/main.f39e201c.chunk.js.map",
     "runtime-main.js": "/junotechchallenge-miguel-albryan-bonus/static/js/runtime-main.adde6777.js",
@@ -8,14 +8,14 @@
     "static/js/2.15cdc988.chunk.js": "/junotechchallenge-miguel-albryan-bonus/static/js/2.15cdc988.chunk.js",
     "static/js/2.15cdc988.chunk.js.map": "/junotechchallenge-miguel-albryan-bonus/static/js/2.15cdc988.chunk.js.map",
     "index.html": "/junotechchallenge-miguel-albryan-bonus/index.html",
-    "precache-manifest.dffef44c054c5fa47d42194f2c1e1e73.js": "/junotechchallenge-miguel-albryan-bonus/precache-manifest.dffef44c054c5fa47d42194f2c1e1e73.js",
+    "precache-manifest.cacfaac044d8e4711b009ef157f37d1a.js": "/junotechchallenge-miguel-albryan-bonus/precache-manifest.cacfaac044d8e4711b009ef157f37d1a.js",
     "service-worker.js": "/junotechchallenge-miguel-albryan-bonus/service-worker.js",
-    "static/css/main.517b9700.chunk.css.map": "/junotechchallenge-miguel-albryan-bonus/static/css/main.517b9700.chunk.css.map"
+    "static/css/main.e65488a4.chunk.css.map": "/junotechchallenge-miguel-albryan-bonus/static/css/main.e65488a4.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.adde6777.js",
     "static/js/2.15cdc988.chunk.js",
-    "static/css/main.517b9700.chunk.css",
+    "static/css/main.e65488a4.chunk.css",
     "static/js/main.f39e201c.chunk.js"
   ]
 }

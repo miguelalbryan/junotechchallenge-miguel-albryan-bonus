@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3484d677de75a292f36868d76400cbe0",
+    "revision": "e739545ecdaf269cdacaac1866d4f320",
     "url": "/junotechchallenge-miguel-albryan-bonus/index.html"
   },
   {
-    "revision": "b21598b433ca8e36ccc6",
-    "url": "/junotechchallenge-miguel-albryan-bonus/static/css/main.517b9700.chunk.css"
+    "revision": "e75012a2bc591e5bf3e4",
+    "url": "/junotechchallenge-miguel-albryan-bonus/static/css/main.e65488a4.chunk.css"
   },
   {
     "revision": "702c3dae5ea852b86479",
     "url": "/junotechchallenge-miguel-albryan-bonus/static/js/2.15cdc988.chunk.js"
   },
   {
-    "revision": "b21598b433ca8e36ccc6",
+    "revision": "e75012a2bc591e5bf3e4",
     "url": "/junotechchallenge-miguel-albryan-bonus/static/js/main.f39e201c.chunk.js"
   },
   {

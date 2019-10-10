@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/junotechchallenge-miguel-albryan-bonus/precache-manifest.dffef44c054c5fa47d42194f2c1e1e73.js"
+  "/junotechchallenge-miguel-albryan-bonus/precache-manifest.cacfaac044d8e4711b009ef157f37d1a.js"
 );
 
 self.addEventListener('message', (event) => {
