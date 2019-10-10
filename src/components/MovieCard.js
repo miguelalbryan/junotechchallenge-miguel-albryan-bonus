@@ -40,7 +40,7 @@ export default class MovieCard extends Component{
                          Movie Details <br/>
                         <i className="fas fa-chevron-right" />
                       </Link>
-            
+                
                 </div> 
             </div> 
            )

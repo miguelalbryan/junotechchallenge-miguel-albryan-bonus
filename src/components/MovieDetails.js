@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import { APIKEY } from '../APIKEY/APIKEY.js'
-
+import Actors from './Actors.js'
 class MovieDetails extends Component{
     constructor(props){
         super(props);
@@ -41,8 +41,6 @@ class MovieDetails extends Component{
         return  <i key={index}>{genre}  </i>
       })//Passes array into content
 
-      console.log(this.state.movieDetails)
-
         let content = (
             <div className="container">
               <div className="row">
@@ -68,7 +66,7 @@ class MovieDetails extends Component{
                     </li>
   
                     <li className="list-group-item">
-                    <strong>Actors:</strong> {" "}
+                    <strong>Actors:</strong> {<Actors movieid={this.state.movieID}/>}
                   </li>
                   </ul>
                 </div>
